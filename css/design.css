@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E3E3E3;
+}
+
+.container {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+    padding: 15px;
+}
+
+.weeknd-banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 15%;
+    background-color: #E10430;
+    flex-wrap: wrap-reverse;
+}
+
+.weekend{
+    margin-top: 40px;
+    max-width: 100%;
+}
+
+.im-abel{
+    text-align: center;
+    margin-top: 22vh;
+}
+
+.abel-bold{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.occupation{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about-abel{
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    gap: 20%;
+}
+
+.abt-weeknd{
+    color: #F5F5F5;
+}
+
+.abt-descr{
+    max-width: 500px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.abt-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.weeknd-blnding{
+    max-width: 100%;
+}
+
+.awards-title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.grammy{
+    text-align: center;
+}
+
+.grmmy, .amrican, .bllboard{
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.a-m-a{
+    text-align: center;
+}
+
+.b-m-a{
+    text-align: center;
+}
+
+.awards-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.awards-n-nominations{
+    background-color: #F8F8F8;
+    padding: 20px;
+}
+
+.grammy-awards, .american-awards, .billboard-awards{
+    max-width: 100%;
+    height: auto;
+}
+
+.three-albums{
+    background-color: #1E1E1E;
+    padding: 20px;
+
+}
+
+.album{
+    position: relative;
+}
+
+.bbtm{
+    position: relative;
+    top: 0%;
+    left: 110%;
+
+}
+
+.starboy{
+    position: absolute;
+    top: 0%;
+    left: 59%;
+}
+
+.after-hours{
+    position: absolute;
+    top: 0%;
+    left: 8%;
+}
+
+.albums-title{
+    text-align: center;
+    color:#F8F8F8;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.three-alb-names{
+    color: #F8F8F8;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.album-secs{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+li{
+    margin-bottom: 30px;
+}
