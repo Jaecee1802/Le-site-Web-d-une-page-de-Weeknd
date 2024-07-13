@@ -5,6 +5,7 @@
 
 body{
     background-color: #E3E3E3;
+    overflow-x: hidden;
 }
 
 .container {
@@ -127,13 +128,14 @@ body{
 
 .album{
     position: relative;
+    margin-right: 14%;
+    margin-bottom: 5%;
 }
 
 .bbtm{
     position: relative;
     top: 0%;
     left: 110%;
-
 }
 
 .starboy{
@@ -164,7 +166,7 @@ body{
 .album-secs{
     display: flex;
     justify-content: space-evenly;
-    gap: 20%;
+    gap: 15%;
     margin-top: 60px;
     flex-wrap: wrap;
 }
