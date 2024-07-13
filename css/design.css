@@ -6,6 +6,7 @@
 body{
     background-color: #E3E3E3;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .container {
@@ -122,14 +123,15 @@ body{
 
 .three-albums{
     background-color: #1E1E1E;
-    padding: 20px;
+    padding: 40px;
 
 }
 
 .album{
     position: relative;
-    margin-right: 14%;
+    margin-right: 40%;
     margin-bottom: 5%;
+    max-width: 25%;
 }
 
 .bbtm{
@@ -161,16 +163,36 @@ body{
     color: #F8F8F8;
     font-size: 20px;
     font-weight: 400;
+    max-width: 200px;
 }
 
 .album-secs{
     display: flex;
     justify-content: space-evenly;
-    gap: 15%;
     margin-top: 60px;
+    gap: 5%;
     flex-wrap: wrap;
 }
 
 li{
+    margin-bottom: 30px;
+}
+
+.disclaimer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.xo-footer{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
     margin-bottom: 30px;
 }
